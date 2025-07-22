@@ -49,6 +49,9 @@
 - Ссылки на дашборды
 - График с трендом и аномалиями
 
+## Пример алерта
+![IMG_20250722_234312](https://github.com/user-attachments/assets/dd7eef8c-36e1-4de7-b41a-a3e3a08fe1bd)
+
 ## Конфигурация
 
 Настройки метрик в словаре `metrics_params`:
@@ -57,6 +60,3 @@ metrics_params = {
     'views': {'a':3, 'n':7, 'url':'http://example.com/views', 'name':'Просмотры'},
     # другие метрики...
 }
-
-## Пример алерта
-![IMG_20250722_234312](https://github.com/user-attachments/assets/dd7eef8c-36e1-4de7-b41a-a3e3a08fe1bd)
