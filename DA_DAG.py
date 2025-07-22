@@ -24,8 +24,8 @@ default_args = {
 # Интервал запуска DAG
 schedule_interval = '*/15 * * * *'
 
-my_token = '7229672972:AAEmccpV3JkBSoAuClS7baPzxNZ1k9EBgyY' 
-chat_id = -969316925 #-1002614297220    1445087139
+my_token = '' 
+chat_id = 
 bot = telegram.Bot(token=my_token)
 yesterday = (datetime.now() - timedelta(days=1)).date()
 
